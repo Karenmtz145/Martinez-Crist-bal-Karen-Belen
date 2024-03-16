@@ -1,0 +1,10 @@
+import pywhatkit
+
+try:
+    #pywhatkit.senwhatmsg("+4442906382", "Hello world", 18,42)
+    #pywhatkit.senwhatmsg_instantly("+524442906382", "Hello desde python")
+    pywhatkit.sendwhatmsg_to_group_instantly("HMSd7sLfFPy4ivP0YtAqvE ", "Hola", 10, True, 5)
+    print("Mensaje enviado")
+except:
+    print("Error")
+    
